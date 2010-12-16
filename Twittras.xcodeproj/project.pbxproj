@@ -57,6 +57,8 @@
 		C305642512B801B400094C6E /* OARequestParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = C305641112B801B300094C6E /* OARequestParameter.m */; };
 		C305642612B801B400094C6E /* OAServiceTicket.m in Sources */ = {isa = PBXBuildFile; fileRef = C305641312B801B300094C6E /* OAServiceTicket.m */; };
 		C305642712B801B400094C6E /* OAToken.m in Sources */ = {isa = PBXBuildFile; fileRef = C305641612B801B300094C6E /* OAToken.m */; };
+		C365152C12BA422D00EA3B82 /* ImageTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C365152A12BA422D00EA3B82 /* ImageTextCell.m */; };
+		C36515C612BA544D00EA3B82 /* icon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C36515C512BA544D00EA3B82 /* icon.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -167,6 +169,9 @@
 		C305641512B801B300094C6E /* OAToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAToken.h; sourceTree = "<group>"; };
 		C305641612B801B300094C6E /* OAToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAToken.m; sourceTree = "<group>"; };
 		C305641712B801B300094C6E /* OAuthConsumer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAuthConsumer.h; sourceTree = "<group>"; };
+		C365152A12BA422D00EA3B82 /* ImageTextCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageTextCell.m; sourceTree = "<group>"; };
+		C365152B12BA422D00EA3B82 /* ImageTextCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageTextCell.h; sourceTree = "<group>"; };
+		C36515C512BA544D00EA3B82 /* icon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = icon.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,6 +190,8 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				C365152B12BA422D00EA3B82 /* ImageTextCell.h */,
+				C365152A12BA422D00EA3B82 /* ImageTextCell.m */,
 				256AC3D80F4B6AC300CF3369 /* TwittrasAppDelegate.h */,
 				256AC3D90F4B6AC300CF3369 /* TwittrasAppDelegate.m */,
 				C305634312B7FB2C00094C6E /* Tweet.h */,
@@ -245,10 +252,11 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				C36515C512BA544D00EA3B82 /* icon.jpg */,
+				C36514E112BA38D100EA3B82 /* XIBs */,
 				C305629612B7F90900094C6E /* MGTwitterEngine */,
 				8D1107310486CEB800E47090 /* Twittras-Info.plist */,
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
-				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -459,6 +467,14 @@
 			path = Categories;
 			sourceTree = "<group>";
 		};
+		C36514E112BA38D100EA3B82 /* XIBs */ = {
+			isa = PBXGroup;
+			children = (
+				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
+			);
+			name = XIBs;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -511,6 +527,7 @@
 			files = (
 				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
 				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
+				C36515C612BA544D00EA3B82 /* icon.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -567,6 +584,7 @@
 				C305642512B801B400094C6E /* OARequestParameter.m in Sources */,
 				C305642612B801B400094C6E /* OAServiceTicket.m in Sources */,
 				C305642712B801B400094C6E /* OAToken.m in Sources */,
+				C365152C12BA422D00EA3B82 /* ImageTextCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

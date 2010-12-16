@@ -12,8 +12,10 @@
 
 @synthesize screenName;
 @synthesize text;
+@synthesize imagePath;
 
 - (void) dealloc {
+	[imagePath release];
 	[screenName release];
 	[text release];
 	[super dealloc];

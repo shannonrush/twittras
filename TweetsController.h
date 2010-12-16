@@ -14,4 +14,7 @@
 }
 @property (retain) IBOutlet NSTableView *tableView;
 @property (retain) NSMutableArray *tweets;
+
+-(void)refresh;
+
 @end
