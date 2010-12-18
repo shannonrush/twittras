@@ -7,8 +7,9 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "SRBaseController.h"
 
-@interface TweetsController : NSViewController{
+@interface TweetsController : SRBaseController {
 	IBOutlet NSTableView *tableView;
 	NSMutableArray *tweets;
 }
